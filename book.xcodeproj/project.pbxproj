@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0992A7E41C93C459005B6705 /* boook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A7E31C93C459005B6705 /* boook.m */; };
+		0992A7E71C93F2F8005B6705 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A7E61C93F2F8005B6705 /* XYPoint.m */; };
 		09F7FA511C815D89004C946C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7FA501C815D89004C946C /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0992A7E21C93C459005B6705 /* boook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boook.h; sourceTree = "<group>"; };
+		0992A7E31C93C459005B6705 /* boook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boook.m; sourceTree = "<group>"; };
+		0992A7E51C93F2F8005B6705 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		0992A7E61C93F2F8005B6705 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		09F7FA4D1C815D89004C946C /* book */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = book; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F7FA501C815D89004C946C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				09F7FA501C815D89004C946C /* main.m */,
+				0992A7E21C93C459005B6705 /* boook.h */,
+				0992A7E31C93C459005B6705 /* boook.m */,
+				0992A7E51C93F2F8005B6705 /* XYPoint.h */,
+				0992A7E61C93F2F8005B6705 /* XYPoint.m */,
 			);
 			path = book;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0992A7E41C93C459005B6705 /* boook.m in Sources */,
+				0992A7E71C93F2F8005B6705 /* XYPoint.m in Sources */,
 				09F7FA511C815D89004C946C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +249,7 @@
 				09F7FA561C815D89004C946C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
